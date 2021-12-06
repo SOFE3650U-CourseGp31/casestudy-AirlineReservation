@@ -194,7 +194,7 @@ This iteration will mainly focus on the architectural concern about the compatib
 Elements to decompose: 
 <p align="center"><img src="imgs/contextDiagram.png" /></p>
 <p align="center">Figure 1.1: Context Diagram for Airline Reservation System</p>
-<br>
+<br><br>
 
 <div id='i1-step3'/> <!-- Iteration 1 - Step 3 -->
 
@@ -332,7 +332,7 @@ This iteration will mainly focus on the overall structure of our system. This be
 * UC-3: Edit a reservation
 * UC-6: Search
 * CRN-1: Establishing an overall system structure.
-<br>
+<br><br>
 
 <div id='i2-step3'/>
 
@@ -523,24 +523,54 @@ The elements that will be refined in this iteration would be the use cases but m
 
 ### Step 2 : Establish Iteration Goals by Selecting Drivers
 
-
+For this iteration the main focus will be on QA-4: Availability and QA-5: Performance. The selected drivers are:
+* UC-7: An admin open’s a user’s account
+* UC-5: Limit every account to a single user
+* UC-4: Updates Database
+<br><br>
 
 <div id='i3-step3'/>
 
 ### Step 3: Choose One or More Elements of the System to Refine
-
-
+For this step, the elements to be refined are UC-7, UC-5 and UC-4 from iteration 1. This will address QA-4: Availability and QA-5: Performance.
+<br><br>
 
 <div id='i3-step4'/>
 
 ### Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers
-
+<table align="center">
+    <tr>
+        <th>Design Decision and Location</th>
+        <th>Rationale and Assumption</th>
+    </tr>
+    <tr>
+        <td>Using PHP and MySQL for the Database.</td>
+        <td>
+            Refining the Database, ensures that every user has a unique ID (including the admin) and records user activities such as flight bookings under their account. The unique ID will differentiate certain users (such as the admin) from other users, who will have more user actions available to them (such as being able to access every client’s account). 
+           <br>
+           This addresses QA-4: Availability, in which having a database ensures that the system is backed up and is running in less than a minute. Also addresses QA-5.
+        </td>
+    </tr>
+</table>
 
 
 <div id='i3-step5'/>
 
 ### Step 5: Instantiate Architectural Elements, Allocate Responsibilities
-
+<table align="center">
+    <tr>
+        <th>Design Decision and Location</th>
+        <th>Rationale</th>
+    </tr>
+    <tr>
+        <td>Using JavaScript and leveraging the React framework for the reservation and registration system</td>
+        <td>
+            Leveraging the React framework to restrict users from making certain types of user actions such as creating multiple accounts with the same email address. 
+            <br>
+            This addresses QA-5: Performance, ensuring that all services such as the buttons, user registration and reservations forms, are 100% functional at all times and works as intended.
+        </td>
+    </tr>
+</table>
 
 
 <div id='i3-step6'/>
