@@ -201,7 +201,7 @@ Elements to decompose:
 ### Step 3: Choose One or More Elements of the System to Refine
 
 The element to refine is the entire airline system (see Figure 1.1). The refinement is performed through decomposition. 
-<br>
+<br><br>
 
 <div id='i1-step4'/> <!-- Iteration 1 - Step 4 -->
 
@@ -339,7 +339,7 @@ This iteration will mainly focus on the overall structure of our system. This be
 ### Step 3: Choose One or More Elements of the System to Refine
 
 The elements that will be refined in this iteration would be the use cases but mainly, UC-1, UC-2 and UC-6. Refining these elements will help support the functionality of the system and also address CRN-1.
-<br>
+<br><br>
 
 <div id='i2-step4'/>
 
@@ -450,6 +450,7 @@ The elements that will be refined in this iteration would be the use cases but m
         <td>Determine the total of the specified flight</td>
     </tr>
 </table>
+<br>
 
 <div id='i2-step7'/>
 
@@ -504,6 +505,7 @@ The elements that will be refined in this iteration would be the use cases but m
         <td>Modules associated with all of the use cases have been identified. Structure of the system has been defined from the diagrams (activity & sequence).</td>
     </tr>
 </table>
+<br>
 
 <!-- ---------------------------------------ITERATION 3--------------------------------------- -->
 <div id='iteration3'/>
