@@ -490,19 +490,25 @@ The elements that will be refined in this iteration would be the use cases but m
         <td align="center"></td>
         <td align="center"></td>
         <td align="center">QA-1</td>
-        <td rowspan="2">The elements that are associated with the use case (UC-1, 2, 3, 6) have been identified. </td>
+        <td>The elements that are associated with the use case (UC-2, 3, 6) have been identified. </td>
     </tr>
     <tr>
         <td align="center"></td>
         <td align="center"></td>
         <td align="center">QA-2</td>
-        <td></td>
+        <td>The elements that are associated with the use case (UC-1) have been identified. </td>
     </tr>
     <tr>
         <td align="center"></td>
         <td align="center"></td>
         <td align="center">CRN-1</td>
         <td>Modules associated with all of the use cases have been identified. Structure of the system has been defined from the diagrams (activity & sequence).</td>
+    </tr>
+    <tr>
+        <td align="center"></td>
+        <td align="center">CRN-2</td>
+        <td align="center"></td>
+        <td>Technologies considered take into account the knowledge of the developers and how comfortable they are with said technologies.</td>
     </tr>
 </table>
 <br>
