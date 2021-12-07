@@ -586,7 +586,12 @@ For this step, the elements to be refined are UC-7, UC-5 and UC-4 from iteration
 <div id='i3-step6'/>
 
 ### Step 6: Sketch Views and Review Design Decisions
-
+<p align="center"><img src="figures/deploymentDiagram.png" /></p>
+<p align="center">Figure 3.1: UML Deployment Diagram of Airline Reservation System</p>
+<br>
+<p align="center"><img src="figures/sequenceDiagramLogin.png" /></p>
+<p align="center">Figure 3.2: Sequence Diagram Illustrating Login Interaction with Database to Determine the Type of User</p>
+<br>
 
 
 <div id='i3-step7'/>
