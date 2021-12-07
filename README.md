@@ -38,7 +38,7 @@
 <!-- ---------------------------------------REVIEW INPUTS--------------------------------------- -->
 
 <div id='sr-usecase'/>  <!-- USE CASE -->
-<p align="center"><img src="imgs/useCaseDiagram.png" /></p>
+<p align="center"><img src="figures/useCaseDiagram.png" /></p>
 <p align="center">Figure 0.1: Use Case Diagram for Airline Reservation System</p>
 <br>
 <table align="center">
@@ -181,6 +181,8 @@
 
 ## Iteration 1 - Establishing an Overall System Structure
 <!-- ---------------------------------------ITERATION 1--------------------------------------- -->
+This section presents the results of the activities that are performed in each of the
+steps of ADD in the first iteration of the design process. 
 
 <div id='i1-step2'/> <!-- Iteration 1 - Step 2 -->
 
@@ -192,7 +194,7 @@ This iteration will mainly focus on the architectural concern about the compatib
 * CON-3: Future support for mobile operating system (iOS, Android)
 
 Elements to decompose: 
-<p align="center"><img src="imgs/contextDiagram.png" /></p>
+<p align="center"><img src="figures/contextDiagram.png" /></p>
 <p align="center">Figure 1.1: Context Diagram for Airline Reservation System</p>
 <br><br>
 
@@ -262,7 +264,7 @@ The element to refine is the entire airline system (see Figure 1.1). The refinem
 <div id='i1-step6'/> <!-- Iteration 1 - Step 6 -->
 
 ### Step 6: Sketch Views and Review Design Decisions
-<p align="center"><img src="imgs/richInternetApplication.png" /></p>
+<p align="center"><img src="figures/richInternetApplication.png" /></p>
 <p align="center">Figure 1.2: Context Diagram for Airline Reservation System</p>
 <br>
 
@@ -321,6 +323,8 @@ The element to refine is the entire airline system (see Figure 1.1). The refinem
 
 ## Iteration 2 - Identifying Structures to Support Primary Functionality
 <!-- ---------------------------------------ITERATION 2--------------------------------------- -->
+This section presents the results of the activities that are performed in each of the
+steps of ADD in the second iteration of the design process. 
 
 <div id='i2-step2'/>
 
@@ -376,10 +380,10 @@ The elements that will be refined in this iteration would be the use cases but m
 <div id='i2-step6'/>
 
 ### Step 6: Sketch Views and Review Design Decisions
-<p align="center"><img src="imgs/activityDiagram.png" /></p>
+<p align="center"><img src="figures/activityDiagram.png" /></p>
 <p align="center">Figure 2.1: Activity Diagram for Airline Reservation System</p>
 <br>
-<p align="center"><img src="imgs/sequenceDiagram.png" /></p>
+<p align="center"><img src="figures/sequenceDiagram.png" /></p>
 <p align="center">Figure 2.2: Sequence diagram for use case UC-2</p>
 <br>
 <table align="center">
@@ -450,6 +454,7 @@ The elements that will be refined in this iteration would be the use cases but m
         <td>Determine the total of the specified flight</td>
     </tr>
 </table>
+<p align="center">Table 2.3: Method Description for UC-2 Sequence diagram</p>
 <br>
 
 <div id='i2-step7'/>
@@ -511,6 +516,7 @@ The elements that will be refined in this iteration would be the use cases but m
         <td>Technologies considered take into account the knowledge of the developers and how comfortable they are with said technologies.</td>
     </tr>
 </table>
+<p align="center">Table 2.4: Analysis of Current Design and Review Iteration</p>
 <br>
 
 <!-- ---------------------------------------ITERATION 3--------------------------------------- -->
@@ -518,6 +524,8 @@ The elements that will be refined in this iteration would be the use cases but m
 
 ## Iteration 3 - Addressing Quality Attribute Scenario Driver
 <!-- ---------------------------------------ITERATION 3--------------------------------------- -->
+This section presents the results of the activities that are performed in each of the
+steps of ADD in the third iteration of the design process. 
 
 <div id='i3-step2'/>
 
@@ -552,7 +560,8 @@ For this step, the elements to be refined are UC-7, UC-5 and UC-4 from iteration
         </td>
     </tr>
 </table>
-
+<p align="center">Table 2.1: Design Decisions to Satisfy Selected Driver</p>
+<br>
 
 <div id='i3-step5'/>
 
@@ -571,7 +580,8 @@ For this step, the elements to be refined are UC-7, UC-5 and UC-4 from iteration
         </td>
     </tr>
 </table>
-
+<p align="center">Table 2.2: Instantiate Elements & Allocate Responsibilities</p>
+<br>
 
 <div id='i3-step6'/>
 
@@ -582,3 +592,61 @@ For this step, the elements to be refined are UC-7, UC-5 and UC-4 from iteration
 <div id='i3-step7'/>
 
 ### Step 7: Perform Analysis of Current Design and Review Iteration
+<table align="center">
+   <tr>
+        <th align="center">Not Addressed</th>
+        <th align="center">Partially Addressed</th>
+        <th align="center">Completely Addressed</th>
+        <th>Design Decisions Made During the Iteration</th>
+    </tr>
+    <tr>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center">UC-4</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center">UC-5</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center">UC-7</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center"></td>
+        <td align="center">QA-4</td>
+        <td align="center"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center"></td>
+        <td align="center">QA-5</td>
+        <td align="center"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center">CON-4</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center">CON-5</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center">CON-6</td>
+        <td></td>
+    </tr>
+</table>
+<p align="center">Table 2.4: Analysis of Current Design and Review Iteration</p>
+<br>
