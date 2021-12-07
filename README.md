@@ -603,7 +603,7 @@ For this step, the elements to be refined are UC-7, UC-5 and UC-4 from iteration
         <td align="center"></td>
         <td align="center"></td>
         <td align="center">UC-4</td>
-        <td></td>
+        <td rowspan="3">The use of PHP and MySQL supports these use cases to be able to access information that are stored in the database. This will also allow updates to database when information is modified/added/deleted.</td>
     </tr>
     <tr>
         <td align="center"></td>
@@ -621,19 +621,19 @@ For this step, the elements to be refined are UC-7, UC-5 and UC-4 from iteration
         <td align="center"></td>
         <td align="center">QA-4</td>
         <td align="center"></td>
-        <td></td>
+        <td>Database ensures that all important user and system information is backed up and run in less than a minute if any error occurs.</td>
     </tr>
     <tr>
         <td align="center"></td>
         <td align="center">QA-5</td>
         <td align="center"></td>
-        <td></td>
+        <td>Creating a script that will allow only certain actions to be available based on whether a user is an admin or a customer ensure everything will work as intended.</td>
     </tr>
     <tr>
         <td align="center"></td>
         <td align="center"></td>
         <td align="center">CON-4</td>
-        <td></td>
+        <td rowspan="3">The design decision of incorporating PHP and MySQL for the database addresses these concerns (CON-4, 5, 6) of requesting information from the database and having a stable connection between the user and the server.</td>
     </tr>
     <tr>
         <td align="center"></td>
